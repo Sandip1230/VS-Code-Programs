@@ -1,0 +1,83 @@
+:root 
+{
+  --size: 200px;  /* S animation size */
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url('thumbnail/back.jpg') no-repeat center center/cover;
+}
+
+.overlay { 
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+/* S logo container */
+.s-logo {
+  width: var(--size);
+  margin: 0 auto 30px;
+}
+
+svg {
+  display: block;
+}
+
+path {
+  animation: pulse-glow 0.9s infinite alternate;
+}
+
+/* Neon pulse effect */
+@keyframes pulse-glow {
+  0%,100% { filter: drop-shadow(0 0 10px #00ff99) drop-shadow(0 0 20px #00ff99); }
+  50%     { filter: drop-shadow(0 0 20px #00ff99) drop-shadow(0 0 40px #00ff66); }
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-shadow: 0 0 12px rgba(0, 255, 120, 0.6);
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #1fc935, #18a82d);
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 15px rgba(31, 201, 53, 0.6);
+}
+
+.btn:hover {
+  background: #000;
+  color: #1fc935;
+  box-shadow: 0px 0px 20px 3px #1fc935;
+  transform: translateY(-3px);
+}
+
+.btn:active
+{
+   color: #00ff66;
+   box-shadow: 3px 3px 3px green;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab2</title>
+    <style>
+        .taskbar
+        {
+            width: 1366px;
+            margin-left: -8px;
+            height: 38px;
+            margin-top: -10px;
+            cursor: pointer;
+        }
+        .experimentals
+        {
+            width: 1366px;
+            margin-left: -8px;
+            height: 106px;
+            margin-top: -8px;
+        }
+        .Experimental_Container
+        {
+            width: 1150px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: -0.05em;
+            text-decoration: none;
+        }
+        .gmail
+        {
+            padding-left: 1100px;
+            margin-top: -88px;
+            cursor: pointer;
+            color: white;
+        }
+        .gmail:visited
+        {
+            text-decoration: underline none;
+             color: white;  
+        }
+        .images
+        {
+            padding-left: 1151px;
+            margin-top: -33px;
+            cursor: pointer;
+            color: white;
+        }
+        .images:visited
+        {
+            text-decoration: underline none;
+             color: white;  
+        }
+        .labs
+        {
+            margin-left: 1205px;
+            margin-top: -53px;
+            cursor: pointer;
+        }
+        .logo {
+            
+            width: 272px;
+            margin-left: 540px;
+            height: 92px;
+            margin-top: 57px;
+            cursor: pointer;
+        }
+        .search-container {
+            display: flex;
+            margin-top: 35px;
+            margin-top: 34px;
+            margin-left: 300px;
+            margin-right: 2px;
+            width: 747px;
+            height: 48px;
+            padding-right: 1px;
+            border-radius: 310px;
+            box-shadow: 1px 0px 4px 3px rgb(235, 234, 234);
+            font-size: 16px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(113, 113, 113);
+        }
+        .input {
+            border:none;
+            width: 510px;
+            height: 45px;
+            padding-inline-end:87px;
+            padding-inline-start:52px;
+            padding-left:52px;
+            padding-right:87px;
+            border-radius: 175px;
+            margin-right: 50px;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(113, 113, 113);
+        }
+        .lens {
+            padding-top: 12px;
+            padding-left: 1px;
+            padding-right: 17px;
+            width: 27px;
+            height: 26px;
+            margin-left: 12px; /* Pull lens image over input */
+            cursor: pointer;
+        }
+        .voice {
+            padding-top: 16px;
+            padding-left: 20px;
+            padding-right: 4px;
+            width: 13px;
+            height: 17px;
+            margin-left: 12px; /* Pull lens image over input */
+            cursor: pointer;
+        }
+        .Shortcut_Container {
+            padding-top: 17px;
+            padding-left: 282px;
+            padding-right: 4px;
+            width: 770px;
+            height: 120px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        .youtube {
+            padding-top: 10px;
+            padding-left: 120px;
+            padding-right: 2px;
+            width: 110px;
+            height: 120px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        .chatGPT {
+            padding-top: 10px;
+            padding-right: 2px;
+            width: 110px;
+            height: 120px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        .jiohotstar {
+            padding-top: 10px;
+            padding-right: 2px;
+            width: 110px;
+            height: 120px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        .add_Shortcut {
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 2px;
+            width: 110px;
+            height: 120px;
+            margin-left: 12px;
+            cursor: pointer;
+        }
+        .theme {
+            margin-top: 79px;
+            padding-left: 987px;
+            padding-right: 0px;
+            width: 64px;
+            height: 55px;
+            margin-left: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="taskbar" src="Thumbnails/Taskbar.png" alt="taskbar">
+    <div class="Experimental_Container">
+        <img class="experimentals" src="Thumbnails/Experimentals.png" alt="experimentals">
+        <a href="https://mail.google.com/mail/u/0/" target="_blank">
+            <p class="gmail">Gmail</p>
+        </a>
+        <a href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl" target="_blank">
+            <p class="images">Images</p>
+        </a>
+        <a href="https://labs.google.com/search?source=ntp&authuser=0" target="_blank">
+            <img class="labs" src="Thumbnails/labs.png" alt="labs">
+        </a>
+    </div>
+    <a href="https://www.google.com/" target="_blank">
+        <img class="logo" src="Thumbnails/logo.png" alt="logo">
+    </a>
+    <div class="search-container">
+        <input class="input" type="text" placeholder="&#128269  Search Google or type a URL">
+        <a href="https://www.google.com/search?q=google+search+by+voice&rlz=1C1CHBF_enIN1154IN1154&oq=google+search+by+voice&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDYwMTJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">
+            <img class="voice" src="Thumbnails/search by voice.png" alt="voice">
+        </a>
+        
+        <img class="lens" src="Thumbnails/lens.png" alt="lens">
+    </div>
+    <div class="Shortcut_Container">
+        <a href="https://www.youtube.com" target="_blank">
+            <img src="Thumbnails/Shortcuts/Youtube.png" alt="Youtube" class="youtube">
+        </a>
+        <a href="https://chat.openai.com/" target="_blank">
+            <img src="Thumbnails/Shortcuts/ChatGPT.png" alt="ChatGPT" class="chatGPT">
+        </a>
+        <a href="https://www.hotstar.com/in/home" target="_blank">
+            <img src="Thumbnails/Shortcuts/Jiohotstar.png" alt="Jiohotstar" class="jiohotstar">
+        </a>
+        <img src="Thumbnails/Shortcuts/Add Shortcuts.png" alt="Add" class="add_shortcut">
+        <img src="Thumbnails/Theme.png" alt="Theme" class="theme">
+    </div>
+</body>
+</html>

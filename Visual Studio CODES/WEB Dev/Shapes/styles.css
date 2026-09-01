@@ -1,0 +1,115 @@
+.shapes{
+      background: linear-gradient(to bottom right , rgb(67, 66, 66),white);
+      background-color: rgb(220, 216, 216);
+      padding: 10px;
+      display: flex;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+}
+.sqr
+{
+      background-color: red;
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin-top: 20px;
+      margin-left: 20px;
+}
+.sqr:hover
+{
+      transform: translateX(125px);
+      transition: transform 1.25s;
+}
+.cir
+{
+      background-color: rgb(0, 255, 13);
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin-left: 20px;
+      border-radius: 50%;
+}
+.cir:hover{
+      transform: scale(1.2);
+      transition: transform 1s;
+}
+.rec
+{
+      background-color: rgb(34, 0, 255);
+      display: inline-block;
+      width: 200px;
+      height: 100px;
+      margin-left: 20px;
+}
+.rec:hover{
+      transform: translateY(100px);
+      transition: transform 1.25s;
+}
+.quad-cir
+{
+      background-color: aqua;
+      width: 100px;
+      margin-left: 10px;
+      border-top-left-radius:100%;
+      border-top-left-radius:100%;
+}
+.dome
+{
+      background-color: rgb(255, 132, 0);
+      width: 100px;
+      margin-left: 20px;
+      border-top-left-radius:100%;
+      border-top-right-radius:100%;
+}
+.half-cir
+{
+      background-color: rgb(255, 0, 238);
+      width: 200px;
+      height: 100px;
+      margin-left: 20px;
+      border-top-left-radius:6000px;
+      border-top-right-radius:6000px;
+}
+.half-cir:hover{
+      transform: rotateX(360deg);
+      transition: transform 1.20s;
+}
+.oval
+{
+      background-color: rgb(204, 255, 0);
+      display: inline-block;
+      width: 200px;
+      height: 100px;
+      margin-left: 20px;
+      border-radius: 50%;
+}
+.thought-box
+{
+      background-color: rgb(255, 0, 111);
+      display: inline-block;
+      width: 200px;
+      height: 100px;
+      margin-left: 20px;
+      border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+}
+.thought-box:hover
+{
+      transform: scaleX(1.1);
+      transition: transform 1.20s;
+}
+.tri {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(78, 148, 224);
+  /*increase the border of the side opposite to the pointing vertex*/
+}
+.tri:hover
+{
+      transform: rotate(360deg);
+      transition: transform 1.20s;
+}

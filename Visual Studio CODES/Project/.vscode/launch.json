@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PasswordGenerator",
+            "request": "launch",
+            "mainClass": "PasswordGenerator",
+            "projectName": "Project_d2e6e829"
+        },
+        {
+            "type": "java",
+            "name": "TrafficManagementExpertSystem",
+            "request": "launch",
+            "mainClass": "TrafficManagementExpertSystem",
+            "projectName": "Project_d2e6e829"
+        },
+        {
+            "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "Person",
+            "projectName": "Project_d2e6e829"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AgeValidator",
+            "request": "launch",
+            "mainClass": "AgeValidator",
+            "projectName": "Project_d2e6e829"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "Pattern",
+            "projectName": "Project_d2e6e829"
+        },
+        {
+            "type": "java",
+            "name": "Printer",
+            "request": "launch",
+            "mainClass": "Printer",
+            "projectName": "Project_d2e6e829"
+        }
+    ]
+}

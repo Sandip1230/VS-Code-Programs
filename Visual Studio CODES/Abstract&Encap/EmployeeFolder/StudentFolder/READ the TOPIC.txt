@@ -1,0 +1,16 @@
+student 
+roll, name, marks > 100 can't be, average, grade 
+           /  |  \
+        phy chem maths
+
+if by mistake more than 100 is input throw error and terminate the program.
+set the grade and get/display the grade of a student.
+
+-----Grade----- average-----
+    A              100-90
+    B               80-90
+    C               70-80
+    D               BELOW 70
+
+
+    By using encapsulation.

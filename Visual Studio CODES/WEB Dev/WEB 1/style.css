@@ -1,0 +1,83 @@
+    .Subscribe 
+    {
+        background-color: rgb(174, 11, 11);
+        color: white;
+        border:none;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 2px;
+        cursor:pointer;
+        margin-right: 9px;
+    }
+    .Subscribe:hover
+    {
+        opacity: 0.8;
+        transition: opacity 0.15s;
+    }
+    .Join
+    {
+        background-color: white;
+        border-radius: 3px;
+        color: rgb(55, 55, 229);
+        border-color: rgb(55, 55, 229);
+        border-style: solid;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        cursor: pointer;
+        margin-right: 9px;
+    }
+    .Join:hover
+    {
+        background-color: rgb(55, 55, 229);
+        color: white;
+        transition: background-color 0.15s ;
+        transition: color 0.15s;
+    }
+    .Tweet
+    {
+        background-color: rgb(58, 161, 229);
+        color:white;
+        border-radius: 200px;
+        border: none;
+        height: 32;
+        width: 70;
+        cursor: pointer;
+        margin-right: 9px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .Tweet:hover
+    {
+        box-shadow: 2px 2px 2px  lightgrey;
+        transition: box-shadow 0.15s;
+    }
+    .Share
+    {
+        background-color: grey;
+        font-weight: bold;
+        cursor:pointer;
+        color: white;
+        border-radius: 200px;
+        border: none;
+        height: 32px;
+        width: 90px;
+        margin-right: 9px;
+    }
+    .Share:hover
+    {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 2px rgb(160, 156, 156);
+        transition: background-color 0.15s;
+        transition: color 0.15s;
+        transition: box-shadow 0.15s;
+    }
+    .Subscribe:hover
+    {
+        opacity: 0.85;
+        transition: opacity 0.15s;
+    }
